@@ -1,0 +1,40 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+i{
+    vertical-align: top;
+    
+    color:  rgb(172, 27, 27);    
+    margin-left: 15%;
+}
+h3{
+    color: rgb(172, 27, 27);
+    text-align: center;
+    margin-bottom: 4%;
+    font-size: x-large;
+}
+#botao{
+    margin-left: 42%;
+    background-color: rgb(224, 199, 168);
+    color: rgb(168, 41, 41);
+    margin-bottom: 10%;
+    font-weight: bolder;
+    
+}
+body{
+    width: 100%;
+    background-image: url("https://image.freepik.com/fotos-gratis/fundo-de-textura-de-cor-bege-marmorizada_34836-1356.jpg");
+}
+#caixa {   
+    padding-top: 2em;
+    width: 25%;
+    margin: 14% auto;
+    background-color: rgba(175, 127, 64, 0.678);
+    text-align: left;
+    border-color:  rgb(168, 41, 41);
+    border-radius: 10px;
+    
+}
