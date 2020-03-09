@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var palavra = prompt("Digite uma palavra de 3 letras: ")
+        if(palavra.length==3){
+                palavra.split("")
+                for(var i=0; i<palavra.length; i++){
+                    for(var j=0; j<palavra.length; j++){
+                        for(var k=0; k<palavra.length; k++){
+                            if(i!=j && i!= k && j!=k)
+                            console.log(palavra[i]+palavra[j]+palavra[k])
+
+                        }
+                    }
+                }
+        }
+        else{
+            alert("Insira uma palavra valida!")
+        }
+        
+    </script>
+    
+</body>
+</html>
